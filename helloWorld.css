@@ -1,0 +1,10 @@
+body {
+  font-family: system-ui;
+  background: rgb(159, 230, 221);
+  color: white;
+  text-align: center;
+
+  h2 {
+    color: aquamarine;
+  }
+}
