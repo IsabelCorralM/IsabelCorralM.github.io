@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise2</title>
+  <style>
+    body {
+      background-color: lightblue;
+      margin: 0;
+    }
+    h1{
+        color: blueviolet;
+        text-align: center;
+    }   
+    .contenedor {
+        display: flex;  
+        justify-content: space-between; /* espacios entre los divs en proporcion*/
+        height: 90%;
+        padding: 1%; 
+        gap: 20px;
+   
+    }
+    .contenedor div {
+        width: 32%; /* ancho de cada caja */
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: white;
+        border: 2px solid white;
+        padding:2%;
+        flex-direction: column;
+        text-align: justify;
+        
+    }
+    .titulo{
+        color: rgb(227, 161, 242);
+        text-align: center;
+        font-weight: bold;
+    }
+    img.fija {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;  /* ajusta la imagen completa dentro del área */
+    }
+  </style>
+</head>
+<body>
+    <h1>CUENTOS</h1>
+<div class="contenedor">
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSumLtRwvHanFV2RUnzoqjdCsA8iFg4iYmAkQ&s" class="fija">
+        <p class="titulo">El pequeño árbol</p>
+        <p>En un rincón del bosque, un pequeño árbol soñaba con tocar las nubes. Cada día estiraba sus ramas y susurraba al viento sus deseos. Con el tiempo, creció más fuerte que todos los demás, y sus ramas finalmente acariciaron el cielo.</p>
+    </div>
+    <div>
+        <img src="https://d3wo5wojvuv7l.cloudfront.net/t_square_limited_720/images.spreaker.com/original/6f4042c94ed77b9d68976ef87d57da45.jpg" class="fija">
+        <p class="titulo">La estrella olvidada</p>
+        <p>Había una estrella que siempre llegaba tarde a la noche. Se sentía triste porque nadie la miraba. Pero una niña la vio titilar y sonrió. Desde entonces, la estrella supo que aunque pequeña, podía iluminar el mundo de alguien.</p>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZPcLOhz0aV_b36d9H6Cu-7NQgxpaDlEiVw&s" class="fija">
+        <p class="titulo">El gato viajero</p>
+        <p>Un gato gris decidió recorrer la ciudad sin avisar a nadie. Saltó de tejado en tejado, olió cada rincón y conoció a otros animales. Al final del día, volvió a su casa y se acurrucó en su cama, sonriendo. Había viajado mucho, pero entendió que el hogar siempre lo esperaba.</p>
+    </div>
+</div>
+</body>
+</html>
