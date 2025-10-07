@@ -1,0 +1,24 @@
+
+.light-img {
+    width: 100px;
+}
+
+.on {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #d4e9cf;
+    background-color: #53e32f;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.off {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #d4e9cf;
+    background-color: #e32f38;
+    border-radius: 30px;
+    width: 150px;
+}
